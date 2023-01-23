@@ -1,0 +1,9 @@
+name: ci
+
+on: [ pull_request ]
+
+jobs:
+  build:
+    uses: XiangRongLin/reusable-workflows-with-ci/.github/workflows/reuseable-ci.yml@main
+    with:
+      java-version: 17
