@@ -4,7 +4,7 @@ on: [ pull_request ]
 
 jobs:
   build:
-    uses: sivahpe/workflows-reuse/.github/workflows/reusable-ci.yml@main
+    uses: sivahpe/workflows-reuse/.github/workflows/reusable-ci.yml@workflow_changes
     with:
       java-version: 17
 
