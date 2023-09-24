@@ -7,3 +7,5 @@ jobs:
     uses: sivahpe/workflows-reuse/.github/workflows/reusable-ci.yml@main
     with:
       java-version: 17
+
+
