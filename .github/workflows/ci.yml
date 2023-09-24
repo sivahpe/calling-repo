@@ -4,6 +4,6 @@ on: [ pull_request ]
 
 jobs:
   build:
-    uses: XiangRongLin/reusable-workflows-with-ci/.github/workflows/reusable-ci.yml@master
+    uses: sivahpe/workflows-reuse/.github/workflows/reusable-ci.yml@main
     with:
       java-version: 17
